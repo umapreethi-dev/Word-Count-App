@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1E1240;
+    color: #D9E1FF;
+}
+
+
+textarea {
+    background-color: #151932;
+    box-shadow: 0 0 50px #252A54;
+    color: #fff;
+}

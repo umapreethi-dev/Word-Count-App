@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   <div class="container">
+       <textarea id="textarea" name="textarea" rows="30" cols="100"
+       oninput="count()"
+       ></textarea>
+   </div> 
+   <div class="words">
+      <h2>Word Count:<span id="word"></span></h2>
+      <h2>Longest Word:<span id="longestWord"></span></h2>
+      <h2>Character Count:<span id="character"></span></h2>
+      <button onClick="return restart()">Restart</button>
+   </div>
 
 
 

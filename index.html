@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Count App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <div class="container">
-       <textarea id="textarea" name="textarea" rows="30" cols="100"
-       oninput="count()"
-       ></textarea>
-   </div> 
-   <div class="words">
-      <h2>Word Count:<span id="word"></span></h2>
-      <h2>Longest Word:<span id="longestWord"></span></h2>
-      <h2>Character Count:<span id="character"></span></h2>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Please enter text to know the count of word,<br />character and longest
+        word
+      </h1>
+      <textarea
+        id="textarea"
+        name="textarea"
+        rows="30"
+        cols="100"
+        oninput="count()"
+      ></textarea>
+    </div>
+    <div class="words">
+      <h2>Word Count :<span id="word"></span></h2>
+      <h2>Longest Word :<span id="longestWord"></span></h2>
+      <h2>Character Count :<span id="character"></span></h2>
       <button onClick="return restart()">Restart</button>
-   </div>
+    </div>
 
-
-
-    <script src=index.js></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>

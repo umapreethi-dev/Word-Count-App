@@ -1,17 +1,30 @@
 body {
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #1E1240;
-    color: #D9E1FF;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1e1240;
+  color: #d9e1ff;
+  font-family: "Poppins", sans-serif;
 }
 
-
 textarea {
-    background-color: #151932;
-    box-shadow: 0 0 50px #252A54;
-    color: #fff;
+  background-color: #151932;
+  box-shadow: 0 0 50px #252a54;
+  color: #fff;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transform: scale(1.1);
+}
+
+.words {
+  text-align: left;
 }
